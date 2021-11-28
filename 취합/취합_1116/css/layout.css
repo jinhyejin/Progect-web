@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: 55px 10fr 1fr;
+
+}
+
+#grid_main{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+ 
+}
+
+header{
+  display: block;
+  position: sticky;
+  top:0;
+  margin: 0;
+  padding: 4px;
+  background-color: #ffffff;
+  width:100%;
+  border-bottom: 3px solid #f1f1f1;
+}
+
+header h1{
+  margin: 0;
+  font-size: 200%;
+  font-style: italic;
+  font-family: "Bauhaus 93";
+  font-weight:lighter;
+  text-align: center;
+}
+
+header h1 a{
+  text-decoration: none;
+  color :inherit;
+}
+
+main{
+  margin: 0;
+  padding-bottom: 50%;
+  border: 1px solid none;
+  background-color: #fafafa;
+}
+
+section {
+  margin: 0;
+  font-family: 'Marcellus', serif;
+
+  
+}
+
+
+footer h1{
+  position:relative;
+  z-index: 1;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  line-height: 120px;
+}

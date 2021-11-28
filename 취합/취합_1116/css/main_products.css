@@ -1,0 +1,24 @@
+*
+{
+    list-style: none;
+
+} 
+
+#products_main{
+  display:block;
+  float :right;
+  position:absolute;
+  
+  background-color: dodgerblue;
+}
+
+.instagram-container{
+  display:flex;
+  flex-direction:row;
+  background-color:goldenrod;
+  }
+
+#image{
+  margin:14px;
+}
+  
